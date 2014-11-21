@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">ZiriKids</string>
+    <string name="pref_local_player_title">Local Player</string>
+    <string name="pref_visitor_player_title">Visitor Player</string>
+    <string name="pref_language_title">Language</string>
+    <string name="pref_music_title">music</string>
+    <string name="pref_game_sounds_title">Game sounds</string>
+    <string name="pref_learn_sounds_title">Learn sounds</string>    
+    <string name="pref_local_player">Local Player Username</string>
+    <string name="pref_guest_player">Local Player</string>
+    <string name="pref_visitor_player">Visitor Player Username</string>
+    <string name="pref_language">Language</string>
+    <string name="pref_music">Activate music</string>
+    <string name="pref_game_sounds">Activate Game sounds</string>
+    <string name="pref_learn_sounds">Activate Learn sounds</string>
+
+</resources>

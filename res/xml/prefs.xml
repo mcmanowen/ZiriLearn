@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+    android:title="@string/pref_local_player_title"
+    android:key="localplayer"
+    android:defaultValue="@string/pref_guest_player"
+    android:summary="@string/pref_local_player">
+    </EditTextPreference>
+    <EditTextPreference
+    android:title="@string/pref_visitor_player_title"
+    android:key="visitorplayer"
+    android:summary="@string/pref_visitor_player">
+    </EditTextPreference>
+    <CheckBoxPreference
+        android:title="@string/pref_music_title"
+        android:key="gamemusic"
+        android:defaultValue="true"
+        android:summary="@string/pref_music">
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:title="@string/pref_game_sounds_title"
+        android:key="gamesound"
+        android:defaultValue="true"
+        android:summary="@string/pref_game_sounds">
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:title="@string/pref_learn_sounds_title"
+        android:key="learnsound"
+        android:defaultValue="true"
+        android:summary="@string/pref_learn_sounds">
+    </CheckBoxPreference>
+    <ListPreference
+        android:title="@string/pref_language_title"
+        android:key="language"
+        android:summary="@string/pref_language"
+        android:entries="@array/language"
+        android:entryValues="@array/languagevalues"
+        android:defaultValue="1">
+    </ListPreference>
+</PreferenceScreen>
+
